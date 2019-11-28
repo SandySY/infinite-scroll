@@ -1,6 +1,9 @@
 # infinite-scroll
 infinite scroll in vue project for window; 网页全屏无限分页加载,鼠标滚动无限加载数据
 
+效果
+今日头条和 知乎 推特 网页里页面向下滚动时，新闻会不断的追加。查看了 dom 元素，他们是把新请求到的新闻不断地追加到 ul 里。
+
 原理
 实现无限分页的过程大致如下：
 
